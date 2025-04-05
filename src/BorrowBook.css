@@ -1,0 +1,98 @@
+.borrow-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.book-image {
+  width: 150px;
+  height: 200px; /* Ensures all book covers have a fixed height */
+  object-fit: cover; /* Ensures image does not stretch */
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.borrow-details {
+  flex: 1;
+}
+
+.borrow-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.borrow-container p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.borrow-container strong {
+  font-weight: bold;
+}
+
+.borrow-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.borrow-form input {
+  width: 400px; /* Set a fixed width for input fields */
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Centering form elements */
+.borrow-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 400px; /* Match button width with input fields */
+  margin-top: 20px;
+}
+
+.confirm-button, .back-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background-color: #0d6efd;
+  color: white;
+  margin-right: 10px;
+}
+
+.back-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.confirm-button:hover {
+  background-color: #0b5ed7;
+}
+
+.back-button:hover {
+  background-color: #c82333;
+}

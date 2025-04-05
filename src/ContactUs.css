@@ -1,0 +1,68 @@
+.contact-page-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.contact-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+  font-size: 14px;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%; /* Ensures inputs don't exceed container width */
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+  box-sizing: border-box; /* Prevents width overflow */
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border: 1px solid #007bff;
+  outline: none;
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-submit-button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-submit-button:hover {
+  background: #0056b3;
+}

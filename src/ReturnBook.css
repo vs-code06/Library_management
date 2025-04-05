@@ -1,0 +1,170 @@
+.return-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.return-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.no-books {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.return-list {
+  list-style: none;
+  padding: 0;
+}
+
+.return-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.return-item:hover {
+  transform: scale(1.02);
+  background-color: #f1f1f1;
+}
+
+.return-info {
+  flex-grow: 1;
+}
+
+.return-book-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+}
+
+.return-user {
+  font-size: 14px;
+  color: #666;
+}
+
+.return-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.return-button:hover {
+  background-color: darkred;
+  transform: scale(1.1);
+}
+
+.back-button-2 {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.back-button-2:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Modal (Card) for Return Form */
+.return-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.return-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.return-form h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.return-form label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.return-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.return-form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm-return {
+  background-color: green;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.confirm-return:hover {
+  background-color: darkgreen;
+}
+
+.cancel-return {
+  background-color: #ccc;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cancel-return:hover {
+  background-color: #bbb;
+}
