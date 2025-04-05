@@ -38,7 +38,7 @@ const initialBooksData = [
   },
   {
     name: "The Night Watchman",
-    "pages": 464,
+    pages: 464,
     description: "A historical novel based on true events, following a Native American leader fighting for his people’s rights.",
     releaseDate: "2020-03-03",
     isbn: "9780062671189"
@@ -164,7 +164,15 @@ function App() {
             <div className="book-list">
               {filteredBooks.map((book) => (
                 <div key={book.isbn} className="book-card">
-                  <img src={bookCovers[book.isbn] || "https://via.placeholder.com/150x200?text=Loading..."} alt={`${book.name} cover`} className="book-cover" />
+                  {bookCovers[book.isbn] ? (
+                    <img
+                      src={bookCovers[book.isbn]}
+                      alt={`${book.name} cover`}
+                      className="book-cover"
+                    />
+                  ) : (
+                    <div className="cover-spinner"></div>
+                  )}
                   <div className="book-info">
                     <h3 className="book-title">{book.name}</h3>
                     <p className="book-description">{book.description}</p>

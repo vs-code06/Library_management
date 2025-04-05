@@ -12,8 +12,8 @@
 
 .book-image {
   width: 150px;
-  height: 200px; /* Ensures all book covers have a fixed height */
-  object-fit: cover; /* Ensures image does not stretch */
+  height: 200px;
+  object-fit: cover; 
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -46,7 +46,7 @@
 }
 
 .borrow-form input {
-  width: 400px; /* Set a fixed width for input fields */
+  width: 400px; 
   padding: 12px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -54,7 +54,6 @@
   font-size: 16px;
 }
 
-/* Centering form elements */
 .borrow-form {
   display: flex;
   flex-direction: column;
@@ -64,7 +63,7 @@
 .button-group {
   display: flex;
   justify-content: space-between;
-  width: 400px; /* Match button width with input fields */
+  width: 400px; 
   margin-top: 20px;
 }
 
