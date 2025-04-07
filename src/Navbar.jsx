@@ -21,7 +21,7 @@ const Navbar = ({ onSearch }) => {
         <button onClick={handleSearch}>🔍</button>
       </div>
       <div className="profile-section">
-        <span className="notification">🔔</span>
+        <span className="notification"></span>
         <div className="profile">
           <img
             src="https://randomuser.me/api/portraits/women/44.jpg"
